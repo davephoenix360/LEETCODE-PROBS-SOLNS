@@ -2,7 +2,7 @@
 using namespace std;
 
 string addBinary(string a, string b) {
-    //Make 'a' the larger string
+    
     string ans="";
     reverse(a.begin(), a.end());
     reverse(b.begin(), b.end());
@@ -21,8 +21,7 @@ string addBinary(string a, string b) {
         if(res > 1){carry = 1; res = res % 2;}
         else{carry = 0;}
 
-        ans += '0' + res;  
-        cout << ans << endl;
+        ans += '0' + res;
         res = 0; 
     }
 
