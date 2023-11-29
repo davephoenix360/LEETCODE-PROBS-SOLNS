@@ -22,10 +22,10 @@ struct ListNode {
 };
 
 ListNode* deleteDuplicates(ListNode* head) {
-    int myval = head->val;
 
-    if(head->next != nullptr)
+    if(head != nullptr && head->next != nullptr)
     {
+        int myval = head->val;
         int mynextval = head->next->val;
 
         if(myval == mynextval)
