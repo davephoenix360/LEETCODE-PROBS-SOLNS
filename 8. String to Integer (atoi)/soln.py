@@ -1,3 +1,7 @@
+"""
+AUTHOR: THE PHOENIX CODER
+"""
+
 class Solution(object):
     def myAtoi(self, s):
         """
